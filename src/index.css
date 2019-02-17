@@ -12,3 +12,9 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+body > div,
+body > div > div,
+body > div > div > div.login-form {
+  height: 100%;
+}
