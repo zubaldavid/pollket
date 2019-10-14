@@ -14,12 +14,12 @@ div#root {
   font-family: "Montserrat", sans-serif;
 }
 
-/* body {
+body {
   margin: 0;
   padding: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-} */
+}
 
 body > div,
 body > div > div,

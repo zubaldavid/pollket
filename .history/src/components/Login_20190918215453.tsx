@@ -8,12 +8,11 @@ import { StyledNavigationHeader } from "../styled-native/styled-nav-header"
 import { Logo } from "./icons/logo"
 import { useDispatch } from "react-redux"
 import { push } from "connected-react-router"
-import { navigate } from "../ui-actions"
 
 export const LoginForm = () => {
   const dispatch = useDispatch()
   const login = () => {
-    dispatch(navigate("/campaign"))
+    dispatch(push("/campaign"))
     console.log("Moving")
   }
 
